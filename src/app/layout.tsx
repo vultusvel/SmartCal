@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import favicon from "../assets/favicon.ico";
-import Header from "./components/Header";
 
 const cormorantGaramond = Cormorant_Garamond({
   weight: ["400", "700"],
@@ -24,8 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cormorantGaramond.variable}`}>  
-        <Header />
+      <body className={`${cormorantGaramond.variable}`}>
         {children}
       </body>
     </html>

@@ -32,11 +32,9 @@
 }
 
 .progressBar {
-  background: linear-gradient(
-    90deg,
-    rgba(99, 102, 241, 0.15),
-    rgba(14, 165, 233, 0.15)
-  );
+  background: linear-gradient(90deg,
+      rgba(99, 102, 241, 0.15),
+      rgba(14, 165, 233, 0.15));
   border-radius: 12px;
   padding: 18px;
   display: flex;
@@ -68,10 +66,34 @@
   gap: 16px;
 }
 
+.mealInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
 .mealsTitle {
   font-size: 16px;
   font-weight: 500;
   color: #94a3b8;
+}
+
+.mealsMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #e2e8f0;
+  }
+}
+
+.arrowIcon {
+  flex-shrink: 0;
 }
 
 .mealsList {

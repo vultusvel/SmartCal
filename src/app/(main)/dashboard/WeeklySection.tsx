@@ -2,7 +2,7 @@ import styles from "./WeeklySection.module.scss";
 
 export default function WeeklySection() {
     return (
-        <section className={styles.section}> 
+        <section className={styles.section}>
             <h2>Weekly Progress</h2>
             <div className={styles.progressBar}>
                 <p className={styles.progressValue}>1450</p>
