@@ -1,0 +1,58 @@
+.section {
+  background: #1e293b;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 40px;
+
+
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f8fafc;
+  }
+}
+
+.progressBar {
+  background: #0f172a;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #e2e8f0;
+  font-size: 15px;
+}
+
+.progressValue {
+  color: #cbd5e1;
+}
+
+.aiInsights {
+  background: linear-gradient(
+    135deg,
+    rgba(99, 102, 241, 0.15),
+    rgba(14, 165, 233, 0.15)
+  );
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aiInsightsTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.aiInsightsText {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}

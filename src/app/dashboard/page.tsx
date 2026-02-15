@@ -1,5 +1,11 @@
-export default function Smth() {
+import TodaySection from "./TodaySection";
+import WeeklySection from "./WeeklySection";
+
+export default function Dashboard() {
   return (
-  <h1>SMTH</h1>
+    <main>
+      <TodaySection />
+      <WeeklySection />
+    </main>
   );
-}
+} 
